@@ -43,8 +43,9 @@ empiricalPDF_func=stats.gaussian_kde(data,bw_method=0.05)      # returrns a func
 
 x=np.linspace(data.min(),data.max(),1000)
 plt.plot(x,empiricalPDF_func(x))
-gaussian_kde takes an optional parameter 'bw_method' which is basically the bandwidth. You may need to play with this. gaussian_kde returns a function.
 ```
+gaussian_kde takes an optional parameter 'bw_method' which is basically the bandwidth. You may need to play with this. gaussian_kde returns a function.
+
 - Compare with analytic PDF
 
 We need to compare the empirical PDF with the analytic PDF (derived in the sheet using f_Z(z)dz=f_Y(y)dy where Z:=\exp{Y}). To do this you may like to define your own funtion. E.g.
