@@ -48,7 +48,7 @@ gaussian_kde takes an optional parameter 'bw_method' which is basically the band
 
 - Compare with analytic PDF
 
-We need to compare the empirical PDF with the analytic PDF (derived in the sheet using f_Z(z)dz=f_Y(y)dy where Z:=\exp{Y}). To do this you may like to define your own funtion. E.g.
+We need to compare the empirical PDF with the analytic PDF (derived in the sheet using $f_Z(z)dz=f_Y(y)dy$ where Z:=\exp{Y}). To do this you may like to define your own funtion. E.g.
 ```
 def lognorm(x,mu,sigma,n):
     y=1/x*1/np.sqrt(2*np.pi*n*sigma**2)*np.exp(-(np.log(x)-n*mu)**2/(2*n*sigma**2))
