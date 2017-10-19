@@ -106,3 +106,9 @@ def flatten(A):
   Usage: f=flatten(A)
   '''
   return np.reshape(A,(1,-1))
+
+def connected_comps_sizes(G):
+  '''
+  Reverse List of sizes of connectd components
+  '''
+  return [len(c) for c in sorted(nx.connected_components(G), key=len, reverse=True)]
