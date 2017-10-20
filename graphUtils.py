@@ -1,6 +1,8 @@
 import networkx as nx
 import random
 import numpy as np
+import past
+from past.builtins import range
 
 
 def _random_subset(seq,m):
@@ -87,7 +89,7 @@ def knn(G,kmax=200):
   N=len(nx.nodes(G))
   knn=np.zeros(kmax) # the final vector
   A=nx.to_numpy_matrix(G) # get adj matix as numpy array
-  d=np.asarray(nx.degree(G).values(),dtype=float) # get degrees, convert to numpy, reshape.
+  d=np.asarray(list(nx.degree(G).values()),dtype=float) # get degrees, convert to numpy, reshape.
   d=np.reshape(d,(1,N)) # So d[i] is degree of node i
   for k in range(kmax): # loop on k
       delta=np.equal(k,d).astype(int)
