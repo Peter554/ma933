@@ -1,4 +1,4 @@
-This repository holds my support materials for the course MA933 Networks and Random Processes (2017-2018), for which I am teaching assistant.
+This repository holds my support materials for the course [MA933 Networks and Random Processes](https://www2.warwick.ac.uk/fac/sci/mathsys/courses/msc/ma933/) (2017-2018), for which I am teaching assistant.
 
 ## Guide
 
