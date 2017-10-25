@@ -23,8 +23,8 @@ also see Sheet1hints.md
 
 **Extras**
 
-Generators and E-values.ipynb
-WattsStrogatz.ipynb
+- Generators and E-values.ipynb
+- WattsStrogatz.ipynb
 
 ## To download a notebook !
 
