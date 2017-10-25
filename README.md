@@ -1,5 +1,11 @@
 This repository holds my support materials for the course [MA933 Networks and Random Processes](https://www2.warwick.ac.uk/fac/sci/mathsys/courses/msc/ma933/) (2017-2018), for which I am teaching assistant.
 
+## To download a notebook !
+
+- **Click on file**
+- **Click on 'Raw'**
+- **Right click and 'Save as'**
+
 ## Guide
 
 **New to Python?**
@@ -25,9 +31,3 @@ also see Sheet1hints.md
 
 - Generators and E-values.ipynb
 - WattsStrogatz.ipynb
-
-## To download a notebook !
-
-- **Click on file**
-- **Click on 'Raw'**
-- **Right click and 'Save as'**
